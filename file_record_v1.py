@@ -21,7 +21,6 @@ def kayitlari_goster(dosya_yolu):
     except FileNotFoundError:
         print("Kayıt dosyası bulunamadı")
 
-
 def kayit_sil(ad_soyad, dosya_yolu):
     try:
         with open(dosya_yolu, 'r') as dosya: # kullanacağımız dosyayı okuma modunda aç
@@ -39,6 +38,7 @@ def kayit_sil(ad_soyad, dosya_yolu):
                 print(f"hata")
     except FileNotFoundError:
         print("Kayıt dosyası bulunamadı")
+
         
                  
 
